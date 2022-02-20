@@ -1,11 +1,11 @@
-import { Flex, Text } from '@chakra-ui/react';
+import HomePage from 'core/pages/Home';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
-    <Flex>
-      <Text>Hello Chakra</Text>
-    </Flex>
+    <>
+      <HomePage />
+    </>
   );
 };
 
